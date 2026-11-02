@@ -1,14 +1,14 @@
-# 840 AI video skills for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw
+# 852 AI video skills for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw
 
 Every card has its install command per agent, its source, license and an example. Click a shelf.
 
 | Shelf | Cards | What it holds |
 |---|---:|---|
-| [Workflows](#workflow) | 160 | End-to-end pipelines: brief in, finished video out. |
+| [Workflows](#workflow) | 164 | End-to-end pipelines: brief in, finished video out. |
 | [Prompts](#prompt) | 82 | Prompt packs for video and image models: camera moves, shot sizes, lighting, characters, hooks. |
 | [Effects](#effect) | 242 | Transitions, captions, titles, device mockups, shaders and every named edit, with the code that makes it. |
-| [Styles](#style) | 19 | Looks, LUTs, fonts and art directions a model or a render can follow. |
-| [Guides](#guide) | 154 | Best practices and references agents read before they generate or edit. |
+| [Styles](#style) | 21 | Looks, LUTs, fonts and art directions a model or a render can follow. |
+| [Guides](#guide) | 160 | Best practices and references agents read before they generate or edit. |
 | [Models & tools](#model) | 141 | Model and tool skills: the services that generate, edit, transcribe or render. |
 | [Wanted](#wanted) | 42 | Formats people ask for that no skill makes yet. Build one and submit it. |
 
@@ -20,7 +20,9 @@ End-to-end pipelines: brief in, finished video out. On varg how to: <https://var
 
 | Skill | What it does | By | Install |
 |---|---|---|---|
+| [img2threejs by Nick (Hoài Nhớ)](workflow/img2threejs.md) | Rebuilds the object in one reference image as a code-only, animation-ready Three.js model, gated pass by pass. | Nick (Hoài Nhớ) | Claude Code, Codex |
 | [Procedural 3D Story](workflow/karpathy-3d-story.md) | Turn a myth or book into a seeded, multi-chapter procedural three.js film in one scene.html, audited frame by frame. | chencheng (云谦) | Claude Code |
+| [Teardown by Elvar](workflow/elvar-teardown.md) | One reference picture in, a 3D machine you can take apart out: three.js simulator, live gauges, 60 fps film. | Elvar | Claude Code |
 
 ### Ads
 
@@ -78,6 +80,7 @@ End-to-end pipelines: brief in, finished video out. On varg how to: <https://var
 |---|---|---|---|
 | [Day in My Life](workflow/hyperframes-day-in-my-life.md) | A 60–75 s hand-drawn ink film of your agent's day with you, built from local Claude Code history, scored for strings. | HeyGen | Claude Code |
 | [Higgsfield Code-Based Films](workflow/higgsfield-code-based-films.md) | Short animated films drawn entirely by code and rendered by Higgsfield's own WebGPU path tracer on your GPU. | Higgsfield | Claude Code, Codex, Cursor |
+| [Huashu Art Motion by Huashu](workflow/huashu-art-motion.md) | Paintings that move: 35+ art styles and 9 explainer grammars as code, BPM-synced music, a QA subagent before delivery. | Huashu (alchaincyf) | Claude Code |
 | [Motion Formats: VHS, pixel art, lyric and launch videos](workflow/motion-formats.md) | Seven full formats with beat structures and presets: analog-horror trailer, VHS screensaver, pixel runner, wave wordmark, DAW one-shot, launch film, lyric video. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Open-source AI Animated Comic and Short Drama Studio](workflow/open-source-ai-comic-drama-studio.md) | Toonflow: self-hosted canvas for AI animated comics and short dramas, from script and storyboard to character assets and Seedance shots, with an MCP and skill. | HBAI-Ltd | Claude Code |
 | [Session Story](workflow/hyperframes-session-story.md) | A 40–70 s watercolor film of a typical session with your agent, told in your real messages, with its own score. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
@@ -132,6 +135,7 @@ End-to-end pipelines: brief in, finished video out. On varg how to: <https://var
 | [FireRed-OpenStoryline](workflow/firered-openstoryline.md) | Conversational editing agent: finds media, writes the storyline, beat-syncs music and refines the cut by chat. | FireRed Team | Codex, OpenClaw |
 | [ghost-editor](workflow/ghost-editor.md) | Talking-head reel editor in your agent: best takes, face-safe word captions, motion graphics, 7 styles. | kurbaitaev | — |
 | [Hypit](workflow/hypit.md) | Clone a viral video as a word-anchored workflow: swap face, words and B-roll, then ship many variants. | Hypit | Claude Code |
+| [Kino by Kino AI](workflow/kino-ai.md) | Video editor for teams and agents: Claude Code and Codex edit the same timeline over MCP, with footage and review links. | Kino AI | Claude Code, Codex |
 | [Oh My Cassette](workflow/oh-my-cassette.md) | MCP bridge to the Cassette editing agent: import footage and music, brief a montage, revise and export. | Cassette | Claude Code, mcp |
 | [OpenChatCut](workflow/openchatcut.md) | Local-first chat video editor with a multi-track timeline that Codex and Claude Code can edit over MCP. | 0xsline | Claude Code, mcp |
 | [OpenMontage](workflow/openmontage.md) | Open-source agentic video studio: 12 pipelines (8 edit your footage), 100+ tools, ~140 skills. Run your agent in it. | Calesthio | Claude Code |
@@ -807,6 +811,7 @@ Looks, LUTs, fonts and art directions a model or a render can follow. On varg ho
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [Algorithmic Art](style/anthropic-algorithmic-art.md) | Create original generative art in p5.js: write an algorithmic philosophy, then code it with seeded randomness. | Anthropic | Claude Code, Codex, Cursor, Gemini CLI |
+| [Brandprint by Refs](style/refs-brandprint.md) | Give it a brand's X handle: it blueprints that brand's launch films and writes its house style as rules. | Refs | Claude Code, claude-ai, Codex, mcp |
 | [Canvas Design](style/anthropic-canvas-design.md) | Design posters and visual art as PNG or PDF from a written design philosophy, with 54 bundled fonts. | Anthropic | Claude Code, Codex, Cursor, Gemini CLI |
 | [fal Game Dev](style/fal-gamedev.md) | Generate 2D pixel-art game assets: characters, sprite sheets, walk and attack cycles, parallax backgrounds. | fal | Claude Code, Codex, Cursor, Gemini CLI |
 | [Generative Art (Camille Roux)](style/genart-skill.md) | Long-form generative art craft from Camille Roux: hash-seeded determinism, traits and rarity, verification, export. | Camille Roux | Claude Code |
@@ -850,6 +855,7 @@ Looks, LUTs, fonts and art directions a model or a render can follow. On varg ho
 | [FrameThrower Film References](style/framethrower.md) | Film stills from 5,489 films, searchable by lighting, lens, shot size, color and mood. | FrameThrower | claude-ai, mcp |
 | [GPT Image 2 Style Library](style/gpt-image-2-style-library.md) | Pick styles and industrial prompt templates for GPT Image 2/2.5 from a 530+ case library (a 35K-star repo). | Canghe | Claude Code, Codex |
 | [Reference Finder](style/craft-reference-finder.md) | Pointer-only reference search: deep links to shot.cafe, film-grab and eyecannndy — never the frames. | varg | — |
+| [Video references by Refs](style/refs-video-references.md) | 4,322 launch films, demos and motion pieces measured shot by shot, searchable free from your agent over MCP. | Refs | Claude Code, claude-ai, Codex, mcp |
 
 ## Guides
 
@@ -891,6 +897,7 @@ Best practices and references agents read before they generate or edit. On varg 
 | [Video Ad Specs](guide/inference-sh-video-ad-specs.md) | Build video ads to each platform's exact specs: TikTok, Instagram, YouTube, Facebook and LinkedIn. | inference.sh | Claude Code, Codex, Cursor, Gemini CLI |
 | [Video Script Generator](guide/video-script-generator.md) | Writes a short-video script and shot list as YAML/JSON from pain-solution, before-after or plot-twist templates | oliviapp8 | OpenClaw |
 | [ViGenAiR (Google)](guide/vigenair-video-ad-variants.md) | Google's open-source tool that recrafts long video ads into shorter, platform-ready variants with Gemini. | Google Marketing Solutions | Claude Code |
+| [Winning UGC ad scan by Refs](guide/refs-ugc-scan.md) | Paste a product link: Refs finds its competitors' winning UGC ads and what wins in the category. | Refs | Claude Code, claude-ai, Codex, mcp |
 
 ### Animation
 
@@ -904,6 +911,7 @@ Best practices and references agents read before they generate or edit. On varg 
 | [LottieFiles Animation Workflows](guide/lottiefiles-animation-workflows.md) | Create, edit and export animation documents through LottieFiles Creator's Engine tools (pre-release). | LottieFiles | Claude Code, Codex, Gemini CLI |
 | [Motion AI Kit](guide/motion-ai-kit.md) | Write production-grade UI animation with Motion or CSS: best practices, docs search, springs, perf audits. | Motion | Claude Code, Codex, Cursor, Gemini CLI |
 | [Motion Design](guide/lottiefiles-motion-design.md) | Animate with intent: timing, easing, choreography and Disney principles for UI and motion graphics. | LottieFiles | Claude Code, Codex, Cursor, Gemini CLI |
+| [OpenDesign Motion by OpenDesign](guide/opendesign-motion.md) | Open-source motion design workspace: any agent, any model writes HyperFrames motion graphics and exports MP4. | OpenDesign (nexu-io) | Claude Code, Codex, Cursor |
 | [Remotion Markup](guide/remotion-markup.md) | Write Remotion markup that animates well: timing, transitions, motion blur, effects, audio, fonts and 3D. | Remotion | Claude Code, Codex, Cursor, Gemini CLI |
 | [Rive](guide/rive.md) | Know when to reach for Rive for interactive graphics and motion, then start from its CLI or runtime docs. | Rive | Claude Code, Codex, Cursor, Gemini CLI |
 
@@ -1049,7 +1057,11 @@ Best practices and references agents read before they generate or edit. On varg 
 
 | Skill | What it does | By | Install |
 |---|---|---|---|
+| [Check a render against its reference by Refs](guide/refs-check-render.md) | Score your render against the reference film: cut timing, brightness, motion, loudness, format, frame-exact fixes. | Refs | Claude Code, claude-ai, Codex, mcp |
+| [Launch video formulas by Refs](guide/refs-formulas.md) | 28 video formats distilled from 132 measured films: the shape in timed beats, the constants, a template prompt. | Refs | Claude Code, claude-ai, Codex, mcp |
 | [Opus 5.5 Motion Studio Harness](guide/opus-5-5-motion-studio-harness.md) | Eight .md files that turn Claude Code + Remotion into a launch-film studio: brief, style, storyboard, motion, sound, render. | beamnxw | Claude Code |
+| [Plan a film from references by Refs](guide/refs-plan-video.md) | Your brief plus 1–5 measured reference films become a beat sheet, shot list, storyboard and build prompt. | Refs | Claude Code, claude-ai, Codex, mcp |
+| [Starter kit by Refs](guide/refs-starter-kit.md) | Rebuild a Refs blueprint as your own film in Remotion or HTML: frame-exact timing, motion blur, master, check. | Refs | Claude Code, Codex, mcp |
 
 ### Logos
 

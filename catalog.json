@@ -1,6 +1,6 @@
 {
  "site": "https://varg.ai/how-to",
- "generatedAt": "2026-10-31T17:09:27.962Z",
+ "generatedAt": "2026-11-01T22:04:33.947Z",
  "search": {
   "markdown": "https://varg.ai/how-to/api/search?q={query}",
   "json": "https://varg.ai/how-to/api/search.json?q={query}"
@@ -11711,6 +11711,365 @@
    "example": "https://github.com/heygen-com/hyperframes-launches/raw/main/codex-five-hour-limit-replica/codex-five-hour-limit-replica.mp4"
   },
   {
+   "slug": "kino-ai",
+   "name": "Kino by Kino AI",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "edit-agents",
+   "tags": [
+    "editor",
+    "mcp",
+    "timeline",
+    "collaboration",
+    "footage-search",
+    "review-links",
+    "desktop",
+    "edit-agents",
+    "app"
+   ],
+   "summary": "Video editor for teams and agents: Claude Code and Codex edit the same timeline over MCP, with footage and review links.",
+   "publisher": "Kino AI",
+   "source": "https://kino.ai/docs/working-with-agents",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "claude mcp add kino --transport http http://127.0.0.1:45680/mcp --scope user",
+    "codex": "codex mcp add kino --url http://127.0.0.1:45680/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/kino-ai",
+   "md": "https://varg.ai/how-to/skills/kino-ai.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_4ba863e71a5c.mp4"
+  },
+  {
+   "slug": "opendesign-motion",
+   "name": "OpenDesign Motion by OpenDesign",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "animation",
+   "tags": [
+    "motion-graphics",
+    "hyperframes",
+    "open-source",
+    "desktop",
+    "any-model",
+    "mcp",
+    "launch",
+    "app"
+   ],
+   "summary": "Open-source motion design workspace: any agent, any model writes HyperFrames motion graphics and exports MP4.",
+   "publisher": "OpenDesign (nexu-io)",
+   "source": "https://github.com/nexu-io/open-design",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "od mcp install claude",
+    "codex": "od mcp install codex",
+    "cursor": "od mcp install cursor"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "openclaw",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/opendesign-motion",
+   "md": "https://varg.ai/how-to/skills/opendesign-motion.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_e405994ae1b4.mp4"
+  },
+  {
+   "slug": "refs-brandprint",
+   "name": "Brandprint by Refs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "style",
+   "category": "art-direction",
+   "tags": [
+    "refs",
+    "refs-video",
+    "brandprint",
+    "brand-kit",
+    "house-style",
+    "brand-guidelines",
+    "launch-video",
+    "motion-design",
+    "mcp"
+   ],
+   "summary": "Give it a brand's X handle: it blueprints that brand's launch films and writes its house style as rules.",
+   "publisher": "Refs",
+   "source": "https://refs.video/connect",
+   "license": "Refs: proprietary hosted service (free search, Pro for the rest)",
+   "install": {
+    "claude-code": "claude mcp add --transport http refs https://refs.video/mcp",
+    "claude-ai": "Customize → Connectors → Add custom connector → https://refs.video/mcp",
+    "codex": "codex mcp add refs --url https://refs.video/mcp",
+    "mcp": "https://refs.video/mcp"
+   },
+   "agents": [
+    "claude-ai",
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/refs-brandprint",
+   "md": "https://varg.ai/how-to/skills/refs-brandprint.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_20af1f174c66.mp4"
+  },
+  {
+   "slug": "refs-check-render",
+   "name": "Check a render against its reference by Refs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "launch",
+   "tags": [
+    "refs",
+    "refs-video",
+    "check-render",
+    "qa",
+    "video-qa",
+    "cut-timing",
+    "loudness",
+    "lufs",
+    "reference-video",
+    "launch-video",
+    "mcp"
+   ],
+   "summary": "Score your render against the reference film: cut timing, brightness, motion, loudness, format, frame-exact fixes.",
+   "publisher": "Refs",
+   "source": "https://refs.video/connect",
+   "license": "Refs: proprietary hosted service (free search, Pro for the rest)",
+   "install": {
+    "claude-code": "claude mcp add --transport http refs https://refs.video/mcp",
+    "claude-ai": "Customize → Connectors → Add custom connector → https://refs.video/mcp",
+    "codex": "codex mcp add refs --url https://refs.video/mcp",
+    "mcp": "https://refs.video/mcp"
+   },
+   "agents": [
+    "claude-ai",
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/refs-check-render",
+   "md": "https://varg.ai/how-to/skills/refs-check-render.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_2bfd9f0dbec0.mp4"
+  },
+  {
+   "slug": "refs-formulas",
+   "name": "Launch video formulas by Refs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "launch",
+   "tags": [
+    "refs",
+    "refs-video",
+    "formulas",
+    "video-formats",
+    "launch-video",
+    "product-demo",
+    "explainer",
+    "teaser",
+    "motion-design",
+    "template-prompt",
+    "beat-sheet",
+    "mcp"
+   ],
+   "summary": "28 video formats distilled from 132 measured films: the shape in timed beats, the constants, a template prompt.",
+   "publisher": "Refs",
+   "source": "https://refs.video/connect",
+   "license": "Refs: proprietary hosted service (free search, Pro for the rest)",
+   "install": {
+    "claude-code": "claude mcp add --transport http refs https://refs.video/mcp",
+    "claude-ai": "Customize → Connectors → Add custom connector → https://refs.video/mcp",
+    "codex": "codex mcp add refs --url https://refs.video/mcp",
+    "mcp": "https://refs.video/mcp"
+   },
+   "agents": [
+    "claude-ai",
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/refs-formulas",
+   "md": "https://varg.ai/how-to/skills/refs-formulas.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_c08852456566.mp4"
+  },
+  {
+   "slug": "refs-plan-video",
+   "name": "Plan a film from references by Refs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "launch",
+   "tags": [
+    "refs",
+    "refs-video",
+    "plan-video",
+    "storyboard",
+    "beat-sheet",
+    "shot-list",
+    "launch-video",
+    "previz",
+    "reference-video",
+    "mcp",
+    "claude-design"
+   ],
+   "summary": "Your brief plus 1–5 measured reference films become a beat sheet, shot list, storyboard and build prompt.",
+   "publisher": "Refs",
+   "source": "https://refs.video/connect",
+   "license": "Refs: proprietary hosted service (free search, Pro for the rest)",
+   "install": {
+    "claude-code": "claude mcp add --transport http refs https://refs.video/mcp",
+    "claude-ai": "Customize → Connectors → Add custom connector → https://refs.video/mcp",
+    "codex": "codex mcp add refs --url https://refs.video/mcp",
+    "mcp": "https://refs.video/mcp"
+   },
+   "agents": [
+    "claude-ai",
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/refs-plan-video",
+   "md": "https://varg.ai/how-to/skills/refs-plan-video.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_1380d87c3934.mp4"
+  },
+  {
+   "slug": "refs-starter-kit",
+   "name": "Starter kit by Refs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "launch",
+   "tags": [
+    "refs",
+    "refs-video",
+    "starter-kit",
+    "remotion",
+    "html-to-video",
+    "playwright",
+    "motion-blur",
+    "loudness",
+    "ffmpeg",
+    "timeline",
+    "launch-video",
+    "code2video"
+   ],
+   "summary": "Rebuild a Refs blueprint as your own film in Remotion or HTML: frame-exact timing, motion blur, master, check.",
+   "publisher": "Refs",
+   "source": "https://refs.video/connect",
+   "license": "Refs: free download, no license file in the ZIP",
+   "install": {
+    "claude-code": "curl -fsSL -o /tmp/refs-starter.zip https://refs.video/starter.zip && unzip -oq /tmp/refs-starter.zip -d . && cd refs-starter && claude mcp add --transport http refs https://refs.video/mcp",
+    "codex": "curl -fsSL -o /tmp/refs-starter.zip https://refs.video/starter.zip && unzip -oq /tmp/refs-starter.zip -d . && cd refs-starter && codex mcp add refs --url https://refs.video/mcp",
+    "mcp": "https://refs.video/mcp"
+   },
+   "agents": [
+    "claude-ai",
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/refs-starter-kit",
+   "md": "https://varg.ai/how-to/skills/refs-starter-kit.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_e49f74b26ed1.mp4"
+  },
+  {
+   "slug": "refs-ugc-scan",
+   "name": "Winning UGC ad scan by Refs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "refs",
+    "refs-video",
+    "ugc",
+    "ugc-ads",
+    "competitor-research",
+    "ad-research",
+    "meta-ad-library",
+    "tiktok-ads",
+    "creative-research",
+    "mcp"
+   ],
+   "summary": "Paste a product link: Refs finds its competitors' winning UGC ads and what wins in the category.",
+   "publisher": "Refs",
+   "source": "https://refs.video/connect",
+   "license": "Refs: proprietary hosted service (free search, Pro for the rest)",
+   "install": {
+    "claude-code": "claude mcp add --transport http refs https://refs.video/mcp",
+    "claude-ai": "Customize → Connectors → Add custom connector → https://refs.video/mcp",
+    "codex": "codex mcp add refs --url https://refs.video/mcp",
+    "mcp": "https://refs.video/mcp"
+   },
+   "agents": [
+    "claude-ai",
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/refs-ugc-scan",
+   "md": "https://varg.ai/how-to/skills/refs-ugc-scan.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_d4e326ddfc50.mp4"
+  },
+  {
+   "slug": "refs-video-references",
+   "name": "Video references by Refs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "style",
+   "category": "style-refs",
+   "tags": [
+    "refs",
+    "refs-video",
+    "references",
+    "launch-video",
+    "product-demo",
+    "reference-library",
+    "blueprint",
+    "cut-map",
+    "shot-list",
+    "mcp",
+    "research",
+    "motion-design",
+    "explainer"
+   ],
+   "summary": "4,322 launch films, demos and motion pieces measured shot by shot, searchable free from your agent over MCP.",
+   "publisher": "Refs",
+   "source": "https://refs.video/connect",
+   "license": "Refs: proprietary hosted service (free search, Pro for the rest)",
+   "install": {
+    "claude-code": "claude mcp add --transport http refs https://refs.video/mcp",
+    "claude-ai": "Customize → Connectors → Add custom connector → https://refs.video/mcp",
+    "codex": "codex mcp add refs --url https://refs.video/mcp",
+    "mcp": "https://refs.video/mcp"
+   },
+   "agents": [
+    "claude-ai",
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/refs-video-references",
+   "md": "https://varg.ai/how-to/skills/refs-video-references.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_ae44d5dc80f0.mp4"
+  },
+  {
    "slug": "video-shotcraft",
    "name": "Video Shotcraft",
    "type": "skill",
@@ -18261,6 +18620,38 @@
    "example": "https://github.com/xixihhhh/ai-short-drama-skill/raw/main/assets/dramake-cover.png"
   },
   {
+   "slug": "elvar-teardown",
+   "name": "Teardown by Elvar",
+   "type": "skill",
+   "status": "beta",
+   "shelf": "workflow",
+   "category": "3d-scenes",
+   "tags": [
+    "threejs",
+    "3d",
+    "exploded-view",
+    "simulator",
+    "cutaway",
+    "explainers",
+    "code-to-video",
+    "claude-code",
+    "skill"
+   ],
+   "summary": "One reference picture in, a 3D machine you can take apart out: three.js simulator, live gauges, 60 fps film.",
+   "publisher": "Elvar",
+   "source": "https://github.com/elvarofficial/teardown",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add elvarofficial/teardown -g -a claude-code && cd ~/.claude/skills/teardown && npm install && npx playwright install chromium"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/elvar-teardown",
+   "md": "https://varg.ai/how-to/skills/elvar-teardown.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_7f71a044d428.mp4"
+  },
+  {
    "slug": "frame-accurate-launch-clip-remotion",
    "name": "Frame-Accurate Square Launch Clips in Remotion",
    "type": "skill",
@@ -18288,6 +18679,39 @@
    "url": "https://varg.ai/how-to/skills/frame-accurate-launch-clip-remotion",
    "md": "https://varg.ai/how-to/skills/frame-accurate-launch-clip-remotion.md",
    "example": "https://github.com/JuniverseLi/motion-studio-skill/raw/main/assets/launch.gif"
+  },
+  {
+   "slug": "huashu-art-motion",
+   "name": "Huashu Art Motion by Huashu",
+   "type": "skill",
+   "status": "beta",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "art-styles",
+    "art-direction",
+    "explainers",
+    "painterly",
+    "pixel-art",
+    "music-in-code",
+    "chinese",
+    "code-to-video",
+    "skill"
+   ],
+   "summary": "Paintings that move: 35+ art styles and 9 explainer grammars as code, BPM-synced music, a QA subagent before delivery.",
+   "publisher": "Huashu (alchaincyf)",
+   "source": "https://github.com/alchaincyf/huashu-art-motion",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add alchaincyf/huashu-art-motion"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/huashu-art-motion",
+   "md": "https://varg.ai/how-to/skills/huashu-art-motion.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_a9132ad7da71.mp4"
   },
   {
    "slug": "huobao-drama-one-sentence-short-drama",
@@ -18380,6 +18804,39 @@
    "url": "https://varg.ai/how-to/skills/idea-to-ai-short-drama-series",
    "md": "https://varg.ai/how-to/skills/idea-to-ai-short-drama-series.md",
    "example": "https://github.com/user-attachments/assets/63c2f33c-da50-44f0-8c26-a65611479d6a"
+  },
+  {
+   "slug": "img2threejs",
+   "name": "img2threejs by Nick (Hoài Nhớ)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "3d-scenes",
+   "tags": [
+    "threejs",
+    "3d",
+    "image-to-3d",
+    "procedural",
+    "typescript",
+    "reference-image",
+    "code-to-video",
+    "skill"
+   ],
+   "summary": "Rebuilds the object in one reference image as a code-only, animation-ready Three.js model, gated pass by pass.",
+   "publisher": "Nick (Hoài Nhớ)",
+   "source": "https://github.com/img2threejs/img2threejs",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "npx --yes img2threejs@latest install",
+    "codex": "npx --yes img2threejs@latest install --host codex"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/img2threejs",
+   "md": "https://varg.ai/how-to/skills/img2threejs.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_30b06de7e03e.webp"
   },
   {
    "slug": "launch-clip-remotion-four-critics",
