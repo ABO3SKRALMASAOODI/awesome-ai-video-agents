@@ -1,6 +1,6 @@
 {
  "site": "https://varg.ai/how-to",
- "generatedAt": "2026-11-01T22:04:33.947Z",
+ "generatedAt": "2026-11-04T03:39:24.309Z",
  "search": {
   "markdown": "https://varg.ai/how-to/api/search?q={query}",
   "json": "https://varg.ai/how-to/api/search.json?q={query}"
@@ -3421,6 +3421,271 @@
    "url": "https://varg.ai/how-to/skills/varg-occasion-video",
    "md": "https://varg.ai/how-to/skills/varg-occasion-video.md",
    "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_e1ac8b0f8d63.mp4"
+  },
+  {
+   "slug": "character-passport",
+   "name": "Character Passport",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "characters",
+   "tags": [
+    "consistent-character",
+    "character-sheet",
+    "turnaround",
+    "character-design",
+    "expressions",
+    "voice-design",
+    "props",
+    "pre-production"
+   ],
+   "summary": "Consistent, non-slop AI characters and props: a passport pasted word for word, a moodboard-lit turnaround, six real expressions, a measured voice.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/character-passport",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill character-passport -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill character-passport -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill character-passport -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/character-passport",
+   "md": "https://varg.ai/how-to/skills/character-passport.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_45185dd5fef3.webp"
+  },
+  {
+   "slug": "find-references",
+   "name": "Find References",
+   "type": "skill",
+   "status": "live",
+   "shelf": "style",
+   "category": "style-refs",
+   "tags": [
+    "references",
+    "moodboard",
+    "reference-board",
+    "visual-ideas",
+    "film-stills",
+    "trends",
+    "look-development",
+    "pre-production"
+   ],
+   "summary": "Real references before anything is made: seven sources, four kinds of reference with this week's numbers, ten visual ideas and a board to pick from.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/find-references",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill find-references -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill find-references -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill find-references -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/find-references",
+   "md": "https://varg.ai/how-to/skills/find-references.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_c65707aa401c.webp"
+  },
+  {
+   "slug": "video-animate",
+   "name": "Video Animate",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "cinematic",
+   "tags": [
+    "previz",
+    "animation",
+    "seedance",
+    "kling",
+    "blender",
+    "threejs",
+    "music-video",
+    "motion-design"
+   ],
+   "summary": "Animate from an approved previz: code or AI per element, which model per shot, a cheap pass, takes, sync, and plates ready for motion design.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/video-animate",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill video-animate -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill video-animate -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill video-animate -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/video-animate",
+   "md": "https://varg.ai/how-to/skills/video-animate.md"
+  },
+  {
+   "slug": "video-moodboard",
+   "name": "Video Moodboard",
+   "type": "skill",
+   "status": "live",
+   "shelf": "style",
+   "category": "style-refs",
+   "tags": [
+    "moodboard",
+    "style-bible",
+    "art-direction",
+    "look-development",
+    "lighting",
+    "color-palette",
+    "pre-production",
+    "references"
+   ],
+   "summary": "A moodboard AI video models follow: lines ranked by what matters most, every line a number, drawn as a board and checked on stills. 450+ links.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/video-moodboard",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill video-moodboard -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill video-moodboard -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill video-moodboard -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/video-moodboard",
+   "md": "https://varg.ai/how-to/skills/video-moodboard.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_6d1cb6e5cc93.mp4"
+  },
+  {
+   "slug": "video-script",
+   "name": "Video Script",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "story",
+   "tags": [
+    "script",
+    "video-script",
+    "scriptwriting",
+    "hooks",
+    "voiceover",
+    "ugc-script",
+    "ad-script",
+    "demo-video",
+    "product-review",
+    "short-drama",
+    "storytelling",
+    "pre-production",
+    "word-count",
+    "voiceover-length",
+    "micro-drama",
+    "cliffhanger",
+    "storyboard"
+   ],
+   "summary": "Write the video script before anything is made: one promise, beats joined by but/therefore, every line sized to its seconds and checked by a script.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/video-script",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill video-script -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill video-script -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill video-script -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/video-script",
+   "md": "https://varg.ai/how-to/skills/video-script.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_a09895414952.webp"
+  },
+  {
+   "slug": "video-sound",
+   "name": "Video Sound",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "audio",
+   "tags": [
+    "sound-design",
+    "voiceover",
+    "dialogue",
+    "sfx",
+    "music",
+    "mixing",
+    "loudness",
+    "ai-voice"
+   ],
+   "summary": "Sound for any video: real AI voices picked from candidates, lines with pauses and breaths, effects on the frame, music cut to bars, a mix checked by script.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/video-sound",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill video-sound -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill video-sound -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill video-sound -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/video-sound",
+   "md": "https://varg.ai/how-to/skills/video-sound.md",
+   "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_32cbafbd0791.mp4"
+  },
+  {
+   "slug": "video-project-github",
+   "name": "Keep a Video Project in GitHub",
+   "type": "skill",
+   "shelf": "guide",
+   "category": "tooling",
+   "tags": [
+    "github",
+    "version-control",
+    "backup",
+    "project-structure",
+    "undo",
+    "pre-production",
+    "hyperframes",
+    "remotion"
+   ],
+   "summary": "A private GitHub repo for your AI video, even if you never used git: saved versions, undo for anything, big files handled, keys kept out.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/video-project-github",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill video-project-github -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill video-project-github -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill video-project-github -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/video-project-github",
+   "md": "https://varg.ai/how-to/skills/video-project-github.md"
   },
   {
    "slug": "hyperframes-figma",
@@ -12070,6 +12335,36 @@
    "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_ae44d5dc80f0.mp4"
   },
   {
+   "slug": "minimax-h3-official-skills",
+   "name": "MiniMax H3 skills (official): prompt writing and 7 formats",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "prompting",
+   "tags": [
+    "minimax-h3",
+    "prompt-writing",
+    "papercraft",
+    "music-video",
+    "official"
+   ],
+   "summary": "MiniMax's own skill for writing H3 video prompts across T2VA, I2VA, FL2VA, L2VA and full-reference Ref2VA, with exact field order for picture, soundscape and mu",
+   "publisher": "MiniMax",
+   "source": "https://github.com/MiniMax-AI/MiniMax-H3/tree/main/skills/h3-prompt-writing",
+   "license": "unknown",
+   "install": {
+    "claude-code": "npx skills add MiniMax-AI/MiniMax-H3",
+    "codex": "npx skills add MiniMax-AI/MiniMax-H3"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/minimax-h3-official-skills",
+   "md": "https://varg.ai/how-to/skills/minimax-h3-official-skills.md",
+   "example": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/HEAD/assets/papercraft-stop-motion-explainer.gif"
+  },
+  {
    "slug": "video-shotcraft",
    "name": "Video Shotcraft",
    "type": "skill",
@@ -19876,6 +20171,658 @@
    "md": "https://varg.ai/how-to/skills/xianxia-cinematic-video-director.md"
   },
   {
+   "slug": "anidoodle",
+   "name": "anidoodle: art and animation written as code",
+   "type": "skill",
+   "status": "live",
+   "shelf": "style",
+   "category": "art-direction",
+   "tags": [
+    "generative-art",
+    "code-art",
+    "doodle",
+    "animation",
+    "svg"
+   ],
+   "summary": "Illustrations, drawing time-lapses, loops, explainers, launch videos and scored films in 32 hand-made styles (ballpoint, chalkboard, charcoal erasure, risograph",
+   "publisher": "Alex Greenshpun",
+   "source": "https://github.com/alexgreensh/anidoodle",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "/plugin marketplace add alexgreensh/anidoodle\n/plugin install anidoodle@alexgreensh-anidoodle",
+    "codex": "codex plugin marketplace add alexgreensh/anidoodle"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/anidoodle",
+   "md": "https://varg.ai/how-to/skills/anidoodle.md",
+   "example": "https://raw.githubusercontent.com/alexgreensh/anidoodle/main/assets/readme/drawing.gif"
+  },
+  {
+   "slug": "animate-procedural",
+   "name": "Animate: procedural animation in any style",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "procedural-animation",
+    "styles",
+    "explainer",
+    "canvas",
+    "playwright"
+   ],
+   "summary": "Short animated videos entirely in code on one canvas, with story, look and storyboard check-ins: cut paper, crosshatch ink, riso, sketchbook, math, pixel, isome",
+   "publisher": "cth9191",
+   "source": "https://github.com/cth9191/animate",
+   "license": "MIT",
+   "install": {
+    "claude-code": "/plugin marketplace add cth9191/animate\n/plugin install animate@animate"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/animate-procedural",
+   "md": "https://varg.ai/how-to/skills/animate-procedural.md",
+   "example": "https://raw.githubusercontent.com/cth9191/animate/main/docs/styles.png"
+  },
+  {
+   "slug": "brag-launch-video",
+   "name": "brag: launch video from your project",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "launch-video",
+    "hyperframes",
+    "code-to-video",
+    "share-copy",
+    "product-launch"
+   ],
+   "summary": "Turn the project you just built into a 20-second launch video with music, motion and share copy, in one command.",
+   "publisher": "latent-spaces",
+   "source": "https://github.com/latent-spaces/brag",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add latent-spaces/brag --skill brag",
+    "codex": "npx skills add latent-spaces/brag --skill brag",
+    "cursor": "npx skills add latent-spaces/brag --skill brag"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/brag-launch-video",
+   "md": "https://varg.ai/how-to/skills/brag-launch-video.md",
+   "example": "https://raw.githubusercontent.com/latent-spaces/brag/main/docs/assets/hero.png"
+  },
+  {
+   "slug": "charlie-hills-motion-graphics",
+   "name": "Motion Graphics Skills (Charlie Hills)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "launch-video",
+    "vox-explainer",
+    "title-sequence",
+    "reference-to-motion",
+    "three.js"
+   ],
+   "summary": "13 Claude Code skills for launch-grade motion graphics in code: launch video, Vox-style explainer, milestone posts and more, rendered with HyperFrames.",
+   "publisher": "Charlie Hills",
+   "source": "https://github.com/charlie947/motion-graphics-skills",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add charlie947/motion-graphics-skills",
+    "codex": "npx skills add charlie947/motion-graphics-skills"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/charlie-hills-motion-graphics",
+   "md": "https://varg.ai/how-to/skills/charlie-hills-motion-graphics.md",
+   "example": "https://raw.githubusercontent.com/charlie947/motion-graphics-skills/main/assets/readme/demo-launch.gif"
+  },
+  {
+   "slug": "cinetic-launch-films",
+   "name": "cinetic: directed launch films from code",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "launch-film",
+    "remotion",
+    "hyperframes",
+    "motion-design",
+    "self-critique"
+   ],
+   "summary": "Makes the agent direct a short film: three concepts first, a plan drawn from 273 measured techniques, one beat grid for picture and sound, then pixel and audio-",
+   "publisher": "Leon (Leonxlnx)",
+   "source": "https://github.com/Leonxlnx/cinetic",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add Leonxlnx/cinetic",
+    "codex": "npx skills add Leonxlnx/cinetic"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/cinetic-launch-films",
+   "md": "https://varg.ai/how-to/skills/cinetic-launch-films.md",
+   "example": "https://raw.githubusercontent.com/Leonxlnx/cinetic/media/quire-streaks-vertical.mp4"
+  },
+  {
+   "slug": "codex-ppt-image-slides",
+   "name": "Codex PPT: image-based slides with GPT Image 2.5",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "explainers",
+   "tags": [
+    "slides",
+    "gpt-image-2-5",
+    "presentation",
+    "editorial",
+    "image-slides"
+   ],
+   "summary": "Turns an article, report or notes into a full-page-image slide deck: outline and style approved first, then every slide generated as an image and assembled into",
+   "publisher": "ningzimu",
+   "source": "https://github.com/ningzimu/codex-ppt-skill",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add ningzimu/codex-ppt-skill",
+    "codex": "npx skills add ningzimu/codex-ppt-skill"
+   },
+   "agents": [
+    "codex",
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/codex-ppt-image-slides",
+   "md": "https://varg.ai/how-to/skills/codex-ppt-image-slides.md",
+   "example": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/HEAD/assets/style-previews/creative-magazine.png"
+  },
+  {
+   "slug": "comfyui-mcp-agent-panel",
+   "name": "comfyui-mcp + ComfyUI Agent Panel",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "tooling",
+   "tags": [
+    "comfyui",
+    "mcp",
+    "workflows",
+    "local-models",
+    "agent-panel"
+   ],
+   "summary": "Local-first, agent-native control plane for ComfyUI: an MCP server (38 tools) and a sidebar agent that generates images, video and audio, authors and runs workf",
+   "publisher": "artokun",
+   "source": "https://github.com/artokun/comfyui-mcp",
+   "license": "MIT",
+   "install": {
+    "claude-code": "/plugin marketplace add artokun/comfyui-mcp\n/plugin install comfy"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/comfyui-mcp-agent-panel",
+   "md": "https://varg.ai/how-to/skills/comfyui-mcp-agent-panel.md",
+   "example": "https://raw.githubusercontent.com/artokun/comfyui-mcp/main/docs/images/demo-poster.jpg"
+  },
+  {
+   "slug": "filmcraft-mcp",
+   "name": "FilmCraft MCP (agent-driven video editor)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "edit-agents",
+   "tags": [
+    "video-editing",
+    "mcp",
+    "timeline",
+    "color-grade",
+    "open-source"
+   ],
+   "summary": "Open-source Rust non-linear editor with 650+ commands exposed over MCP and CLI, so an agent can cut, trim, grade, mix and export like an editor.",
+   "publisher": "ArtCraft (storytold)",
+   "source": "https://github.com/storytold/filmcraft",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "claude mcp add filmcraft -- filmcraft-cli mcp",
+    "codex": "codex mcp add filmcraft -- filmcraft-cli mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/filmcraft-mcp",
+   "md": "https://varg.ai/how-to/skills/filmcraft-mcp.md",
+   "example": "https://raw.githubusercontent.com/storytold/filmcraft/main/docs/images/filmcraft-hero.png"
+  },
+  {
+   "slug": "guizang-social-cards",
+   "name": "Guizang Social Cards: Rednote carousels and WeChat covers",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "image",
+   "tags": [
+    "carousel",
+    "social-cards",
+    "rednote",
+    "cover-image",
+    "typography"
+   ],
+   "summary": "Builds Xiaohongshu/Rednote carousel sets, Live Photo cards and WeChat 21:9 + 1:1 cover pairs from an article, notes, screenshots or video subtitles.",
+   "publisher": "Guizang (op7418)",
+   "source": "https://github.com/op7418/guizang-social-card-skill",
+   "license": "AGPL-3.0",
+   "install": {
+    "claude-code": "npx skills add https://github.com/op7418/guizang-social-card-skill --skill guizang-social-card-skill",
+    "codex": "npx skills add https://github.com/op7418/guizang-social-card-skill --skill guizang-social-card-skill"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/guizang-social-cards",
+   "md": "https://varg.ai/how-to/skills/guizang-social-cards.md"
+  },
+  {
+   "slug": "huashu-motion",
+   "name": "huashu-motion: launch film + point-to-edit",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "launch-film",
+    "explainer",
+    "point-to-edit",
+    "motion-graphics",
+    "code-to-video"
+   ],
+   "summary": "Ask for \"a 30-second launch film for my product\": it reads the product, offers three directions, writes the film and its score, then opens an editor where you c",
+   "publisher": "Huashu (alchaincyf)",
+   "source": "https://github.com/alchaincyf/huashu-motion",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add alchaincyf/huashu-motion",
+    "codex": "npx skills add alchaincyf/huashu-motion"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/huashu-motion",
+   "md": "https://varg.ai/how-to/skills/huashu-motion.md",
+   "example": "https://raw.githubusercontent.com/alchaincyf/huashu-motion/main/docs/media/hero.gif"
+  },
+  {
+   "slug": "ip-as-logo",
+   "name": "IP as Logo: cute mascot logos",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "logos",
+   "tags": [
+    "mascot",
+    "logo",
+    "character-logo",
+    "brand",
+    "gpt-image"
+   ],
+   "summary": "Generates extremely simple, cute, company-ready IP mascot logos: one bold rounded silhouette peeking in from the lower left on a muted solid background.",
+   "publisher": "s1dashu",
+   "source": "https://github.com/s1dashu/ip-as-logo-skill",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add s1dashu/ip-as-logo-skill",
+    "codex": "npx skills add s1dashu/ip-as-logo-skill"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/ip-as-logo",
+   "md": "https://varg.ai/how-to/skills/ip-as-logo.md",
+   "example": "https://raw.githubusercontent.com/s1dashu/ip-as-logo-skill/main/assets/ip-as-logo-wall.webp"
+  },
+  {
+   "slug": "logo-design-skill",
+   "name": "Logo Design Skill (1,400-logo reference library)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "logos",
+   "tags": [
+    "logo",
+    "svg",
+    "brand-mark",
+    "optical-tests",
+    "reference-library"
+   ],
+   "summary": "Turns an agent into a disciplined identity designer: brief, research, SVG construction, optical tests and a full favicon/app-icon export set.",
+   "publisher": "Kaan Kiziltug",
+   "source": "https://github.com/kaankiziltug/logo-design-skill",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add kaankiziltug/logo-design-skill",
+    "codex": "npx skills add kaankiziltug/logo-design-skill"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/logo-design-skill",
+   "md": "https://varg.ai/how-to/skills/logo-design-skill.md"
+  },
+  {
+   "slug": "mono-color-print",
+   "name": "Monocolor Editorial Print",
+   "type": "skill",
+   "status": "live",
+   "shelf": "style",
+   "category": "style-refs",
+   "tags": [
+    "two-ink",
+    "risograph",
+    "editorial-print",
+    "poster",
+    "illustration"
+   ],
+   "summary": "Turns a theme, object or photo into an original one-ink or controlled two-ink editorial print: posters, zines, packaging, portraits, halftone on warm paper.",
+   "publisher": "Yan Liu",
+   "source": "https://github.com/yanliudesign/mono-color-skill",
+   "license": "MIT",
+   "install": {
+    "claude-code": "git clone https://github.com/yanliudesign/mono-color-skill.git ~/.claude/skills/mono-color"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/mono-color-print",
+   "md": "https://varg.ai/how-to/skills/mono-color-print.md",
+   "example": "https://raw.githubusercontent.com/yanliudesign/mono-color-skill/main/examples/example-cycling.png"
+  },
+  {
+   "slug": "motion-prompt-moves",
+   "name": "Motion Prompt: 192 named moves with live samples",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "motion-vocabulary",
+    "easing",
+    "camera-moves",
+    "named-moves",
+    "prompting"
+   ],
+   "summary": "A library of names for things you ask an AI to animate: 192 motion-graphics moves, camera moves and web effects, each with a moving sample, a one-line meaning a",
+   "publisher": "Shohei Ohtaki",
+   "source": "https://github.com/showheyohtaki/motion-prompt",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add showheyohtaki/motion-prompt",
+    "codex": "npx skills add showheyohtaki/motion-prompt"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/motion-prompt-moves",
+   "md": "https://varg.ai/how-to/skills/motion-prompt-moves.md",
+   "example": "https://raw.githubusercontent.com/showheyohtaki/motion-prompt/main/assets/preview-motion.gif"
+  },
+  {
+   "slug": "motionmaxxing",
+   "name": "motionmaxxing: glow-up pass for AI motion graphics",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "brand-motion",
+   "tags": [
+    "motion-polish",
+    "launch-video",
+    "critique",
+    "easing",
+    "motion-graphics"
+   ],
+   "summary": "A skill that moves an agent-made launch or promo film one notch up (Slop to Mid to Maxxed) and reports honestly where it landed, with measured gates.",
+   "publisher": "Tejas Makwana",
+   "source": "https://github.com/Tejashmakwana/motionmaxxing",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "npx skills add Tejashmakwana/motionmaxxing",
+    "codex": "npx skills add Tejashmakwana/motionmaxxing"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/motionmaxxing",
+   "md": "https://varg.ai/how-to/skills/motionmaxxing.md",
+   "example": "https://raw.githubusercontent.com/Tejashmakwana/motionmaxxing/main/docs/media/hero.gif"
+  },
+  {
+   "slug": "openfilm-video-agent",
+   "name": "OpenFilm: video agent + browser editor",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "launch",
+   "tags": [
+    "video-as-web-page",
+    "browser-editor",
+    "launch-film",
+    "explainer",
+    "lyric-video"
+   ],
+   "summary": "Turns any coding agent into a video agent that writes a film as web pages, with a local Studio editor to change anything by hand or by asking.",
+   "publisher": "OpenFilm",
+   "source": "https://github.com/openfilm/openfilm",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add openfilm/openfilm",
+    "codex": "npx skills add openfilm/openfilm"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/openfilm-video-agent",
+   "md": "https://varg.ai/how-to/skills/openfilm-video-agent.md",
+   "example": "https://raw.githubusercontent.com/openfilm/openfilm/HEAD/packages/openfilm/examples-index/one-prompt/look.jpg"
+  },
+  {
+   "slug": "photocraft-mcp",
+   "name": "PhotoCraft MCP (agent-driven photo editor)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "image",
+   "tags": [
+    "photo-editing",
+    "mcp",
+    "layers",
+    "psd",
+    "open-source"
+   ],
+   "summary": "Open-source Rust photo editor (PSD layers, masks, adjustment layers) whose 500+ commands an agent can run over MCP or CLI, e.g. batch-grade a folder of images.",
+   "publisher": "ArtCraft (storytold)",
+   "source": "https://github.com/storytold/photocraft",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "claude mcp add photocraft -- photocraft-cli mcp",
+    "codex": "codex mcp add photocraft -- photocraft-cli mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/photocraft-mcp",
+   "md": "https://varg.ai/how-to/skills/photocraft-mcp.md",
+   "example": "https://raw.githubusercontent.com/storytold/photocraft/main/docs/images/photocraft-demo.jpg"
+  },
+  {
+   "slug": "pixelfx-pixel-effects",
+   "name": "pixelfx: 244 pixel-art effects + effect-making skill",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "pixel-art",
+    "sprite-sheet",
+    "vfx",
+    "game-juice",
+    "canvas"
+   ],
+   "summary": "244 code-drawn pixel-art effects (fire, explosions, magic, weather, UI, pickups) you can recolor and export as sprite sheets, plus a skill that makes new ones: ",
+   "publisher": "patch-gg",
+   "source": "https://github.com/patch-gg/pixelfx",
+   "license": "MIT",
+   "install": {
+    "claude-code": "/plugin marketplace add patch-gg/pixelfx\n/plugin install pixelfx@pixelfx",
+    "codex": "npx skills add patch-gg/pixelfx"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/pixelfx-pixel-effects",
+   "md": "https://varg.ai/how-to/skills/pixelfx-pixel-effects.md",
+   "example": "https://raw.githubusercontent.com/patch-gg/pixelfx/main/docs/readme/montage.gif"
+  },
+  {
+   "slug": "seedance-2-5-video-director",
+   "name": "Seedance 2.5 Video Director",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "prompting",
+   "tags": [
+    "seedance-2-5",
+    "shot-list",
+    "prompt-writing",
+    "storyboard",
+    "cinematic"
+   ],
+   "summary": "Turns ideas, character references, video, audio, storyboards or old prompts into Seedance 2.5 scripts, director plans, diagnostics and copy-ready prompts.",
+   "publisher": "liyue-aigc",
+   "source": "https://github.com/liyue-aigc/seedance-2-5-video-director",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add liyue-aigc/seedance-2-5-video-director",
+    "codex": "npx skills add liyue-aigc/seedance-2-5-video-director"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/seedance-2-5-video-director",
+   "md": "https://varg.ai/how-to/skills/seedance-2-5-video-director.md"
+  },
+  {
+   "slug": "stickman-video-director",
+   "name": "Stickman Video Director: faceless stickman channels",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "shorts",
+   "tags": [
+    "stickman",
+    "faceless",
+    "explainer",
+    "storyboard",
+    "channel"
+   ],
+   "summary": "Turns a topic, article or script into a multi-style animated stickman video (visuals, voiceover, captions, SFX) for faceless YouTube channels.",
+   "publisher": "kaomei",
+   "source": "https://github.com/kaomei/stickman-video-director",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add kaomei/stickman-video-director",
+    "codex": "npx skills add kaomei/stickman-video-director"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/stickman-video-director",
+   "md": "https://varg.ai/how-to/skills/stickman-video-director.md",
+   "example": "https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif"
+  },
+  {
+   "slug": "vibe-knowledge-film",
+   "name": "Vibe Knowledge Film (Douyin knowledge shorts)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "explainers",
+   "tags": [
+    "knowledge-short",
+    "explainer",
+    "vertical",
+    "narration",
+    "code-to-video"
+   ],
+   "summary": "Makes the viral Douyin \"Vibe knowledge\" short: drop a topic or script, it picks a style (Nocturne for hard science, Fable for behaviour), writes the caption scr",
+   "publisher": "HeyChengC",
+   "source": "https://github.com/HeyChengC/vibe-knowledge-film",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add HeyChengC/vibe-knowledge-film",
+    "codex": "npx skills add HeyChengC/vibe-knowledge-film"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/vibe-knowledge-film",
+   "md": "https://varg.ai/how-to/skills/vibe-knowledge-film.md"
+  },
+  {
+   "slug": "video-talkcraft",
+   "name": "video-talkcraft: talking-head motion overlays",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "talking-head",
+   "tags": [
+    "talking-head",
+    "overlays",
+    "kinetic-type",
+    "b-roll",
+    "captions"
+   ],
+   "summary": "Give it a voiceover script and the recorded voice: it aligns word-level timestamps, writes a SHOTBOOK and renders a narrated explainer with kinetic cards, evide",
+   "publisher": "Vincent Wei",
+   "source": "https://github.com/Vincentwei1021/video-talkcraft",
+   "license": "PolyForm",
+   "install": {
+    "claude-code": "npx skills add Vincentwei1021/video-talkcraft",
+    "codex": "npx skills add Vincentwei1021/video-talkcraft"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/video-talkcraft",
+   "md": "https://varg.ai/how-to/skills/video-talkcraft.md",
+   "example": "https://raw.githubusercontent.com/Vincentwei1021/video-talkcraft/main/assets/gallery-zh.png"
+  },
+  {
    "slug": "want-notes-app-ad",
    "name": "Notes-App Ad",
    "type": "wanted",
@@ -20906,6 +21853,56 @@
    "url": "https://varg.ai/how-to/skills/want-ai-static-ad-set",
    "md": "https://varg.ai/how-to/skills/want-ai-static-ad-set.md",
    "example": "https://pbs.twimg.com/media/HR2TdFAbgAAzODl.jpg"
+  },
+  {
+   "slug": "want-clay-parable-short",
+   "name": "Clay Parable Short",
+   "type": "wanted",
+   "status": "wanted",
+   "shelf": "wanted",
+   "category": "animation",
+   "tags": [
+    "animation",
+    "claymation",
+    "stop-motion",
+    "parable",
+    "narration",
+    "captions",
+    "vertical"
+   ],
+   "summary": "An old parable retold in 60–80 s as a handmade-looking clay stop-motion: fingerprints, miniature sets, choppy motion, a calm narrator.",
+   "publisher": "theodorsan",
+   "source": "https://x.com/theodorsan/status/2116199275105275984",
+   "install": {},
+   "agents": [],
+   "url": "https://varg.ai/how-to/skills/want-clay-parable-short",
+   "md": "https://varg.ai/how-to/skills/want-clay-parable-short.md",
+   "example": "https://video.twimg.com/amplify_video/2116198520277397504/vid/avc1/720x1280/t5Aw9ZsNRqoTwhF1.mp4"
+  },
+  {
+   "slug": "want-true-story-cartoon-short",
+   "name": "True-Story 3D Cartoon Short",
+   "type": "wanted",
+   "status": "wanted",
+   "shelf": "wanted",
+   "category": "story",
+   "tags": [
+    "story",
+    "cartoon",
+    "true-story",
+    "faceless",
+    "captions",
+    "vertical",
+    "history"
+   ],
+   "summary": "A 45–90 s vertical cartoon that retells one surprising true story with big-headed 3D characters, word-timed captions and a narrator.",
+   "publisher": "Y0urDumble",
+   "source": "https://x.com/Y0urDumble/status/2115193601458151552",
+   "install": {},
+   "agents": [],
+   "url": "https://varg.ai/how-to/skills/want-true-story-cartoon-short",
+   "md": "https://varg.ai/how-to/skills/want-true-story-cartoon-short.md",
+   "example": "https://video.twimg.com/amplify_video/2115190217371959296/vid/avc1/1440x1280/JgpLEjNtCjLN6mlb.mp4"
   },
   {
    "slug": "craft-cinematic-grammar",
