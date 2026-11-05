@@ -1,6 +1,6 @@
 {
  "site": "https://varg.ai/how-to",
- "generatedAt": "2026-11-04T03:39:24.309Z",
+ "generatedAt": "2026-11-05T03:24:11.594Z",
  "search": {
   "markdown": "https://varg.ai/how-to/api/search?q={query}",
   "json": "https://varg.ai/how-to/api/search.json?q={query}"
@@ -3656,6 +3656,7 @@
    "slug": "video-project-github",
    "name": "Keep a Video Project in GitHub",
    "type": "skill",
+   "status": "live",
    "shelf": "guide",
    "category": "tooling",
    "tags": [

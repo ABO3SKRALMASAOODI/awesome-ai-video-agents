@@ -3,7 +3,7 @@
 A private GitHub repo for your AI video, even if you never used git: saved versions, undo for anything, big files handled, keys kept out.
 
 - **Type:** Guides · Tooling
-- **Status:** undefined
+- **Status:** live
 - **Publisher:** varg
 - **License:** MIT
 - **Source:** <https://github.com/vargHQ/skills/tree/main/video-project-github>
